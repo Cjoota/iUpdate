@@ -16,10 +16,3 @@ class SystemClear:
             self.logger.info(f"Limpando Diretório temporário: {temp_dir}")
             self.logger.info(f"Limpeza em: {temp_dir} - {clean_directory(temp_dir)} bytes liberados")
             self.logger.info(f"Limpeza Concluida em: {temp_dir}")
-
-        
-        
-
-            
-            
-        

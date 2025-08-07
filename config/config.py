@@ -13,8 +13,8 @@ LOGS_DIR.mkdir(exist_ok=True)
 #Configuração de limpeza de arquivos temporarios
 TEMP_DIRECTORIES = [
     os.path.expandvars(r'%TEMP%'),
-    os.path.expandvars(r'%WINDIR\Temp%'),
-    os.path.expandvars(r'%LOCALAPPDATA\Temp%'),
+    os.path.expandvars(r'%WINDIR%\Temp'),
+    os.path.expandvars(r'%LOCALAPPDATA%\Temp'),
 ]
 
 #Configurações de agendamento
